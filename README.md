@@ -23,6 +23,7 @@ func main() {
 
 Save the file and run it with `go run hello.go`. Alternately you can use `go build` in `hello.go`'s directory to receive an executable named `hello`.
 
+We recommend you to use Atom or Visual Studio Code (these are the IDEs we are using) since they come with easy to install golang extensions for code completion etc.
 
 ## Task 1: Reading a JSON file
 
