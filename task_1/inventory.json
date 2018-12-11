@@ -1,0 +1,35 @@
+[{
+  "name": "milk",
+  "price": 90,
+  "brand": "MilkyMilk",
+  "volume": 1000,
+  "quantity": 50
+},
+{
+  "name": "egg",
+  "price": 30,
+  "brand": "ChillingChickens",
+  "volume": 80,
+  "quantity": 50
+},
+{
+  "name": "butter",
+  "price": 150,
+  "brand": "CreamyCalories",
+  "volume": 100,
+  "quantity": 50
+},
+{
+  "name": "bread",
+  "price": 200,
+  "brand": "CrunchyCrust",
+  "volume": 500,
+  "quantity": 50
+},
+{
+  "name": "ice_cream",
+  "price": 500,
+  "brand": "SuperSweetSins",
+  "volume": 250,
+  "quantity": 50
+}]
