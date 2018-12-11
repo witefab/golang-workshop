@@ -28,3 +28,7 @@ We recommend you to use Atom or Visual Studio Code (these are the IDEs we are us
 ## Task 1: Reading a JSON file
 
 The first task is to read the `inventory.json` file and store it as a string. After defining the `Product` struct the content of the JSON string should be migrated to be stored in an array of struct objects. These steps are listed as `TODO`s in the file as well.
+
+## Task 2: Transforming input to JSON
+
+Now we want to create a simple program which takes user input and transforms it into a JSON string. To accomplish this you may use the `Message` struct in order to use the `encoding/json`'s `Encode` method. For the sake of this task it is sufficient to generate a JSON string with a body string as the only attribute.
