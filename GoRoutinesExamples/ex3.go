@@ -6,18 +6,19 @@ import (
 	"time"
 )
 
+// Our boring function returns a channel that lets us communicate with
+// the boring service it provides.
+// We can have more instances of the services.
+
 func main() {
-	// TODO: Change the main function so that it doesnt count in locksteps
-	// you can call the fanIn function to let whosoever is ready to talk
-	// and print out the names/strings
-	joe := boring("Joe!")
-	ann := boring("Ann!")
+	joe := boring("joe!")
+	ann := boring("ann!")
 
 	for i := 0; i < 5; i++ {
 		fmt.Printf("You say: %q\n", <-joe)
 		fmt.Printf("You say: %q\n", <-ann)
 	}
-	fmt.Println("The End")
+	fmt.Println("Im leaving")
 }
 
 func boring(msg string) <-chan string { //Returns receive-only channel of strings
@@ -29,8 +30,4 @@ func boring(msg string) <-chan string { //Returns receive-only channel of string
 		}
 	}()
 	return c //Return the channel to the caller
-}
-
-func fanIn(input1, input2 <-chan string) <-chan string {
-	// TODO: magic
 }
