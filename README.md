@@ -1,6 +1,6 @@
 # Golang
 
-This workshop will show you how to use golang and what it's benefits are.
+This repository contains files and instructions needed for the golang workshop of the module ESD at Fontys University of Applied Sciences in Venlo. The workshop is given by the authors Mathias Nawacki and Fabian Witeczek and will introduce you to golang and teach you it's basics.
 
 ## Prerequisites
 
